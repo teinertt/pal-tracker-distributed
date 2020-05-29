@@ -23,4 +23,5 @@ public class NoOauthResourceServerConfig extends ResourceServerConfigurerAdapter
     public RestOperations restOperations() {
         return new RestTemplate();
     }
-}*/
+}
+*/
