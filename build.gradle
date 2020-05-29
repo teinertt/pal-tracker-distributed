@@ -2,7 +2,7 @@ import io.pivotal.pal.tracker.gradlebuild.DependenciesGraphPlugin
 
 buildscript {
     ext {
-        springBootVersion = "2.0.6.RELEASE"
+        springBootVersion = "2.0.6.RELEASE"  //PAL uses this training version
         springVersion = "5.0.9.RELEASE"
         mysqlVersion = "8.0.13"
         jacksonVersion = "2.9.7"

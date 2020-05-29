@@ -12,7 +12,6 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class RestConfig {
 
-
     @Bean
     public ObjectMapper objectMapper() {
         ObjectMapper mapper = new ObjectMapper();
