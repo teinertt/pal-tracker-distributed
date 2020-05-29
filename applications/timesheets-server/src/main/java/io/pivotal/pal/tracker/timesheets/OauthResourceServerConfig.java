@@ -11,7 +11,7 @@ import org.springframework.security.oauth2.client.resource.OAuth2ProtectedResour
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 import org.springframework.web.client.RestOperations;
-
+/*
 @Configuration
 @ConditionalOnProperty(value = "application.oauth-enabled", matchIfMissing = true)
 public class OauthResourceServerConfig extends ResourceServerConfigurerAdapter {
@@ -33,4 +33,4 @@ public class OauthResourceServerConfig extends ResourceServerConfigurerAdapter {
         // do not require a resource id in AccessToken.
         resources.resourceId(null);
     }
-}
+}*/

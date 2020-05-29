@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
-
+/*
 @Configuration
 @ConditionalOnProperty(value = "application.oauth-enabled", havingValue = "false")
 public class NoOauthResourceServerConfig extends ResourceServerConfigurerAdapter {
@@ -23,4 +23,4 @@ public class NoOauthResourceServerConfig extends ResourceServerConfigurerAdapter
     public RestOperations restOperations() {
         return new RestTemplate();
     }
-}
+}*/
