@@ -28,4 +28,9 @@ public class ProjectClient {
 
         return project;
     }
+
+    public ProjectInfo getProjectFromCache(long projectId, Throwable cause) {
+        logger.info("Getting project with id {} from cache", projectId);
+        return projectsCache.get(projectId);
+    }
 }
